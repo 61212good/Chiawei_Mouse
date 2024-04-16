@@ -46,10 +46,10 @@ int main() {
 	float f_timeout;
 	int max_mouse_thr = 4;//4hr
 	int sleep_tms = 5000;//5000ms
-	int mousedx1 = 50;
-	int mousedy1 = 50;
-	int mousedx2 = -50;
-	int mousedy2 = -50;
+	int mousedx1 = 1;
+	int mousedy1 = 1;
+	int mousedx2 = -1;
+	int mousedy2 = -1;
 
 	timeout = ((max_mouse_thr * 3600) * 1000) / sleep_tms;
 
